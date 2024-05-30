@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Pokémon App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pokémon App adalah aplikasi sederhana yang memungkinkan pengguna untuk melakukan pencarian Pokémon dan melakukan gacha Pokémon berdasarkan lokasi tertentu.
 
-## Available Scripts
+## Fitur
 
-In the project directory, you can run:
+- Pencarian Pokémon: Pengguna dapat mencari Pokémon berdasarkan nama dan melihat rincian Pokémon, termasuk gambar, kemampuan, tipe, dan statistik.
+- Gacha Pokémon: Pengguna dapat melakukan gacha Pokémon berdasarkan lokasi tertentu, dengan kemungkinan munculnya Pokémon yang berbeda tergantung pada waktu gacha (siang/malam) dan peluangnya.
+- Efek Kemampuan: Saat pengguna memilih salah satu kemampuan Pokémon, akan muncul efek dari kemampuan tersebut.
 
-### `npm start`
+## Cara Penggunaan
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone repositori ini ke dalam komputer Anda.
+2. Buka terminal dan navigasikan ke direktori proyek.
+3. Jalankan `npm install` untuk menginstal semua dependensi.
+4. Jalankan `npm start` untuk memulai server pengembangan.
+5. Buka browser dan akses `http://localhost:3000` untuk melihat aplikasi.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Teknologi yang Digunakan
 
-### `npm test`
+- React.js: Digunakan untuk membangun antarmuka pengguna.
+- Axios: Digunakan untuk melakukan permintaan HTTP ke API Pokémon.
+- React Router: Digunakan untuk penanganan rute di aplikasi.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Kontribusi
 
-### `npm run build`
+Anda dipersilakan untuk berkontribusi pada proyek ini. Silakan buat _pull request_ untuk saran atau perbaikan yang ingin Anda lakukan.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Pengembang
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Mochammad Hairullah](https://github.com/hoyirul)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Lisensi
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat berkas [LICENSE](LICENSE) untuk detail lebih lanjut.
