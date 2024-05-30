@@ -2,6 +2,9 @@
 
 Pokémon App adalah aplikasi sederhana yang memungkinkan pengguna untuk melakukan pencarian Pokémon dan melakukan gacha Pokémon berdasarkan lokasi tertentu.
 
+## Demo Video
+Lihat video demo kami di [YouTube](https://youtu.be/fucITS70jes).
+
 ## Fitur
 
 - Pencarian Pokémon: Pengguna dapat mencari Pokémon berdasarkan nama dan melihat rincian Pokémon, termasuk gambar, kemampuan, tipe, dan statistik.
